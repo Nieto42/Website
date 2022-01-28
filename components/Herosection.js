@@ -27,7 +27,7 @@ export default function Homesection() {
       <div className="caption">
         <hr></hr>
         <p className="caption1">
-          Oi ! je suis webmaster - créateur de site web, d'interface UX/UI
+          Oi ! je suis webmaster - créateur de site web, d&apos;interface UX/UI
           Design et de publicité en ligne sur Saint Laurent Du Maroni
         </p>
       </div>
