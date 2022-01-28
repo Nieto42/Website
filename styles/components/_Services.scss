@@ -1,0 +1,59 @@
+.services-container {
+  padding-top: 15px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-color: $color-1;
+  background-size: cover;
+  .title {
+    position: relative;
+    .mot {
+      color: $color-2;
+      font-family: $font-1;
+      font-weight: 400;
+
+      position: absolute;
+      transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg); /* IE 9 */
+      top: -8%;
+      left: -5%;
+    }
+
+    h2 {
+      font-family: $font-1;
+      font-size: 2rem;
+      margin-top: 40px;
+    }
+  }
+
+  .caption {
+    display: flex;
+    margin-top: 20px;
+
+    hr {
+      border: none;
+      border-top: 2px solid #333;
+      width: 32px;
+      height: 5px;
+      margin-top: 7px;
+      margin-right: 20px;
+    }
+    .caption1 {
+      font-size: 1rem;
+      font-family: $font-2;
+      color: #4f4f4f;
+      width: 353px;
+    }
+  }
+  .cta {
+    position: relative;
+    margin-top: 20px;
+    left: 70%;
+  }
+
+  .services {
+    li {
+    }
+  }
+}

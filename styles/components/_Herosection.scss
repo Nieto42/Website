@@ -1,0 +1,188 @@
+.home {
+  background-image: url("/home/Primo frances img.svg"),
+    url("/home/Polygon 3.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30rem, 550px;
+  background-position: center, top;
+
+  background-position-y: -3.3em, center;
+  background-position-x: 20px, center;
+  height: 660px;
+
+  margin-top: 50px;
+
+  cite {
+    visibility: hidden;
+  }
+
+  .scroolContainer {
+    left: 45%;
+    top: -80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg); /* IE 9 */
+
+    visibility: hidden;
+    .scrool1 {
+      border: none;
+      border-top: 2px solid #4f4f4f;
+      // transform: rotate(-90deg);
+      width: 40px;
+      margin: 20px;
+    }
+    .scrool2 {
+      border: none;
+      border-top: 2px solid #4f4f4f;
+      // transform: rotate(-90deg);
+      width: 200px;
+    }
+  }
+  .mot {
+    position: absolute;
+    top: 80px;
+    color: $color-2;
+    font-family: $font-1;
+    font-weight: 400;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg); /* IE 9 */
+  }
+  h1 {
+    font-family: $font-1;
+    font-weight: 500;
+    font-size: 2.4rem;
+    // line-height: 3rem;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+  }
+
+  .caption {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+    hr {
+      border: none;
+      border-top: 2px solid #333;
+      width: 32px;
+      overflow: visible;
+      text-align: center;
+      height: 5px;
+      margin-top: 7px;
+      margin-right: 20px;
+    }
+    .caption1 {
+      font-size: 1rem;
+      font-family: $font-2;
+      color: #4f4f4f;
+      width: 353px;
+    }
+  }
+  button {
+    margin-top: 40px;
+    margin-left: 20px;
+    text-transform: none;
+    border-radius: 16px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 110%, center;
+    background-position-x: -36px, center;
+  }
+}
+@media screen and (min-width: 412px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 105%, center;
+    background-position-x: -36px, center;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .home {
+    background-size: 40rem, 550px;
+    background-position-y: 99%, center;
+    background-position-x: 30%, center;
+
+    .caption {
+      margin-top: 20px;
+    }
+    button {
+      margin-top: 70px;
+      width: 150px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home {
+    background-image: url("/home/primo img desktop.svg"),
+      url("/home/Polygon 3.svg");
+
+    background-size: 540px, 530px;
+    background-position-y: bottom, bottom;
+    background-position-x: 84%, right;
+
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 800px;
+
+    .mot {
+      top: 14%;
+      left: 3%;
+    }
+    h1 {
+      width: 480px;
+      font-size: 4rem;
+      margin-left: 10px;
+    }
+    button {
+      margin-top: 30px;
+    }
+    cite {
+      visibility: visible;
+      position: absolute;
+      left: 83%;
+      top: 45%;
+      word-wrap: break-word;
+      // width: 100px;
+      margin-right: 10px;
+      font-family: $font-1;
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .home {
+    background-image: url("/home/primo img desktop.svg"),
+      url("/home/Polygon 3.svg");
+
+    background-size: 645px, 530px;
+    background-position-y: bottom, bottom;
+    background-position-x: 80%, 85%;
+
+    .mot {
+      top: 14%;
+      left: 2%;
+    }
+    cite {
+      position: absolute;
+      left: 80%;
+      top: 20%;
+      font-family: $font-1;
+      font-size: 1rem;
+      word-wrap: break-word;
+      // width: 100px;
+      margin-right: 20px;
+      color: #4f4f4f;
+    }
+    .scroolContainer {
+      visibility: visible;
+    }
+  }
+}
