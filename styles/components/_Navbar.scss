@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  white-space: nowrap;
 
   top: 0;
   z-index: 3;
@@ -13,6 +14,8 @@
 
   padding-top: 10px;
   padding-bottom: 10px;
+
+  padding-right: 10px;
 
   .logo {
     display: flex;
@@ -32,6 +35,6 @@
   }
 
   .btn {
-    margin-right: 20px;
+    padding-right: 20px;
   }
 }

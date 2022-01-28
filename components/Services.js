@@ -28,14 +28,14 @@ export default function Services() {
           </a>
         </div>
       </div>
-      <div className="services-container">
+      <div className="services">
         <ul className="services">
           {ItemService.map((item, index) => {
             return (
               <li key={index}>
                 <hr />
                 <div className="text">
-                  <p className="number">{item.number} /</p>
+                  <p className="number">{item.number}/</p>
                   <h3>{item.title}</h3>
                 </div>
 

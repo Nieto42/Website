@@ -1,6 +1,6 @@
 export const ItemService = [
   {
-    title: "création de site web",
+    title: "Création de site web",
     number: "01",
     url: "#",
     cName: "service-links",
@@ -8,7 +8,7 @@ export const ItemService = [
     alt: "Petit bouton pour voir le service proposé",
   },
   {
-    title: "Conseil en digitalisation",
+    title: "Conseil en digital",
     number: "02",
     url: "#",
     cName: "service-links",
