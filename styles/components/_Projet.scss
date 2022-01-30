@@ -1,0 +1,17 @@
+.projet {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: $color-1;
+
+  .cta-top {
+    position: relative;
+
+    .button-cta {
+      position: absolute;
+
+      left: 35%;
+      top: -50px;
+      //   transform: translateX(-50);
+    }
+  }
+}

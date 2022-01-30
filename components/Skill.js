@@ -62,15 +62,28 @@ export default function Skill() {
             })}
           </ul>
         </div>
-      </div>
-      <div className="img-button">
-        <Image
-          src="/skill/background blue.svg"
-          alt="background image primo frances"
-          width="200"
-          height="200"
-          quality={100}
-        ></Image>
+        <div className="container-img">
+          <div className="img-button">
+            <div className="background">
+              <Image
+                src="/skill/background blue.svg"
+                alt="background image primo frances"
+                width="240"
+                height="240"
+                quality={100}
+              ></Image>
+            </div>
+            <div className="foto">
+              <Image
+                src="/skill/primo frances en foto.svg"
+                alt="background image primo frances"
+                width="400"
+                height="400"
+                quality={100}
+              ></Image>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

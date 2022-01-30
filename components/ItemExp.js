@@ -1,7 +1,7 @@
 export const ItemExp = [
   {
     date: "2020 - Today",
-    title: "Product designer & Gestioanire",
+    title: "Product designer & Gestionaire",
     company: "PrimoFrances",
   },
   {
