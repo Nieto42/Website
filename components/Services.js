@@ -17,7 +17,11 @@ export default function Services() {
           </p>
         </div>
         <div className="cta">
-          <a href="">
+          <a
+            href="https://wa.me/594694224717"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               src="/services/litle button rond.svg"
               alt="Petit bouton pour voir l'ensemble des services "
@@ -41,7 +45,12 @@ export default function Services() {
 
                 <div className="more">
                   <p>En savoir plus</p>
-                  <a href="#" className="service-link">
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="service-link"
+                  >
                     <Image
                       src={item.image}
                       alt={item.alt}

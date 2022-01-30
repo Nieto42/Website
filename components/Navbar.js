@@ -31,13 +31,16 @@ export default function Navbar() {
           Primo <br></br> Frances{" "}
         </p>
       </div>
-      <ColorButton
-        variant="contained"
-        startIcon={<WhatsAppIcon></WhatsAppIcon>}
-        className="btn"
-      >
-        Contactez
-      </ColorButton>
+
+      <a href=" https://wa.me/594694224717" target="_blank">
+        <ColorButton
+          variant="contained"
+          startIcon={<WhatsAppIcon></WhatsAppIcon>}
+          className="btn"
+        >
+          Contactez
+        </ColorButton>
+      </a>
     </nav>
   );
 }

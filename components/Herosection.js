@@ -31,20 +31,27 @@ export default function Homesection() {
           {"Design et de publicité en ligne sur Saint Laurent Du Maroni"}
         </p>
       </div>
-      <ColorButton
-        size="large"
-        endIcon={
-          <Image
-            src="/icon send message.svg"
-            alt="Logo linkedin primo frances "
-            width="24"
-            height="24"
-            quality={100}
-          ></Image>
-        }
+      <a
+        href="https://wa.me/594694224717"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        Discuton<br></br>Ensemble
-      </ColorButton>
+        <ColorButton
+          size="large"
+          endIcon={
+            <Image
+              src="/icon send message.svg"
+              alt="Logo linkedin primo frances "
+              width="24"
+              height="24"
+              quality={100}
+            ></Image>
+          }
+        >
+          Discuton<br></br>Ensemble
+        </ColorButton>
+      </a>
+
       <div className="scroolContainer">
         <p>Scrool vers le bas</p>
         <hr className="scrool1" />
