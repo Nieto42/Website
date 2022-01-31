@@ -5,6 +5,8 @@ export const ItemPro = [
     descrip: "Web / Landing Page en Next.js & conseil ",
     image: "/button rond.svg",
     alt: "Petit bouton pour voir le projet fini",
+    imagePro: "/Projet/website rps agriculture guyane.png",
+    altPro: "$",
   },
   {
     company: "RPS Agriculture",
@@ -12,6 +14,8 @@ export const ItemPro = [
     descrip: "Web / Landing Page en Next.js & conseil ",
     image: "/button rond.svg",
     alt: "Petit bouton pour voir le projet fini",
+    imagePro: "/Projet/website rps agriculture guyane.png",
+    altPro: "$",
   },
   {
     company: "SAMBO PROMO PUBLICITE",
@@ -19,5 +23,7 @@ export const ItemPro = [
     descrip: "Web / Landing Page en webflow & conseil ",
     image: "/button rond.svg",
     alt: "Petit bouton pour voir le projet fini",
+    imagePro: "/Projet/website rps agriculture guyane.png",
+    altPro: "$",
   },
 ];

@@ -51,10 +51,42 @@ export default function Projet() {
                     ></Image>
                   </a>
                 </div>
+                <div className="img-container">
+                  <a
+                    href="$"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    <Image
+                      src={item.imagePro}
+                      alt={item.altPro}
+                      layout="responsive"
+                      width={700}
+                      height={475}
+                      quality={100}
+                    ></Image>
+                  </a>
+                </div>
               </li>
             );
           })}
         </ul>
+        <div className="button-project">
+          <a
+            href="https://wa.me/594694224717?text=J'aimerais%20voir%20les%20projets%20déja%20réalisés"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/Projet/button voir tous les projets.svg"
+              alt="bouton pour voir tous les projets"
+              width={100}
+              height={100}
+              quality={100}
+            ></Image>
+          </a>
+        </div>
       </div>
     </div>
   );
