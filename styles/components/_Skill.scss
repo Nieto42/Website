@@ -2,6 +2,7 @@
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
+  width: 100%;
 
   .skill {
     position: relative;
@@ -118,31 +119,70 @@
         }
       }
     }
-
     .container-img {
-      //display: flex;
-      // justify-content: center;
-      position: relative;
-      width: 300px;
-      left: 15%;
-
+      margin: 0;
+      padding: 0;
+      height: fit-content;
       .img-button {
-        z-index: -3;
-        height: 190px;
+        height: fit-content;
+        display: flex;
         position: relative;
+
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+
+        z-index: -4;
+
         .background {
           position: absolute;
+          bottom: -50px;
+
+          margin: 0;
+          padding: 0;
         }
 
         .foto {
-          position: absolute;
-          top: -35%;
-          left: -10%;
-          // float: left;
-          // position: relative;
-          // bottom: 50%;
+          position: relative;
+          bottom: -18px;
+          left: -8px;
+
+          margin: 0;
+          padding: 0;
+          height: fit-content;
+          width: 230px;
         }
       }
     }
+    // .container-img {
+    //   position: relative;
+
+    //   left: 15%;
+
+    //   margin: 0;
+    //   padding: 0;
+    //   .img-button {
+    //     z-index: -3;
+    //     height: 190px;
+    //     position: relative;
+
+    //     .background {
+    //       position: absolute;
+    //     }
+
+    //     .foto {
+    //       position: absolute;
+    //       top: -35%;
+    //       left: -40%;
+
+    //     }
+    //   }
+    // }
   }
 }

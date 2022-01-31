@@ -75,10 +75,10 @@ export default function Skill() {
             </div>
             <div className="foto">
               <Image
-                src="/skill/primo frances en foto.svg"
+                src="/skill/CTA primo like.png"
                 alt="background image primo frances"
-                width="400"
-                height="400"
+                width="500"
+                height="500"
                 quality={100}
               ></Image>
             </div>
