@@ -22,7 +22,14 @@ export default function Feedback() {
         </div>
       </div>
       <div className="feed">
-        <Swiper>
+        <Swiper
+          slidesPerView={1}
+          // centeredSlides={true}
+          spaceBetween={150}
+          pagination={{ clickable: true }}
+          modules={[Pagination][Navigation]}
+          navigation
+        >
           {ItemFeedback.map((item, project) => {
             return (
               <SwiperSlide key={project} className="slide">
@@ -32,25 +39,24 @@ export default function Feedback() {
                     <Image
                       src={item.img}
                       alt={item.alt}
-                      layout="responsive"
-                      width={64}
-                      height={64}
+                      // layout="responsive"
+                      width={100}
+                      height={100}
                       quality={100}
-                      className="img"
+                      className="imge"
                     ></Image>
                   </div>
                   <div className="container-text">
-                    <hr className="trait2" />
                     <p className="text">{item.feed}</p>
                   </div>
                   <div className="container-name">
                     <p className="name">{item.name}</p>
                     <div className="container-poste">
-                      <hr />
+                      <hr className="poste-trait" />
                       <p className="poste">{item.poste}</p>
                     </div>
                   </div>
-                  <hr />
+                  <hr className="end-trait" />
                 </div>
               </SwiperSlide>
             );

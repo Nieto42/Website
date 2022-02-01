@@ -46,7 +46,14 @@
 
     .container {
       position: relative;
-      width: 200px;
+
+      width: fit-content;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      display: flex;
+      flex-direction: column;
+
       .trait1 {
         border: none;
         border-top: 2px solid #333;
@@ -55,25 +62,64 @@
         margin-top: 20px;
         padding-right: 20px;
         margin-right: 20px;
+        padding-bottom: 20px;
       }
-      .img {
+
+      .imge {
         border: solid 3px;
         border-radius: 50%;
-        object-fit: cover;
+        // object-fit: cover;
       }
 
       .container-text {
-        display: flex;
-        flex-direction: row;
-        .trait2 {
-          border: none;
-          border-top: 2px solid #333;
-          width: 32px;
-          height: 5px;
-          margin-top: 7px;
-          margin-right: 20px;
+        padding-top: 20px;
+        // width: 200px;
+
+        .text {
+          font-family: $font-2;
+          font-size: 0.9rem;
         }
       }
+
+      .container-name {
+        padding-top: 20px;
+        .name {
+          font-family: $font-1;
+          font-size: 1rem;
+        }
+
+        .container-poste {
+          display: flex;
+          justify-content: space-between;
+          width: max-content;
+          padding-top: 5px;
+
+          .poste-trait {
+            border: none;
+            border-top: 2px solid $color-2;
+            width: 25px;
+            margin-top: 7px;
+            padding-right: 10px;
+            margin-right: 10px;
+          }
+          .poste {
+            font-family: $font-1;
+            font-size: 0.9rem;
+            color: #4f4f4f;
+          }
+        }
+      }
+    }
+
+    .end-trait {
+      border: none;
+      border-top: 2px solid #333;
+      width: 100%;
+      padding-top: 10px;
+      margin-top: 20px;
+      padding-right: 20px;
+      margin-right: 20px;
+      padding-bottom: 40px;
     }
   }
 }
