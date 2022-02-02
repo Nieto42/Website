@@ -2,7 +2,19 @@ import Image from "next/image";
 import { ItemFeedback } from "./ItemFeedback";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper";
+import { Navigation, Pagination, A11y } from "swiper";
+
+// const params = {
+//   pagination: {
+//     el: ".swiper-pagination",
+//     type: "bullets",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// };
 
 export default function Feedback() {
   return (
@@ -23,11 +35,12 @@ export default function Feedback() {
       </div>
       <div className="feed">
         <Swiper
-          slidesPerView={1}
-          // centeredSlides={true}
+          // {...params}
+          //       slidesPerView={1}
+          centeredSlides={true}
           spaceBetween={150}
           pagination={{ clickable: true }}
-          modules={[Pagination][Navigation]}
+          modules={[Pagination, Navigation, A11y]}
           navigation
         >
           {ItemFeedback.map((item, project) => {

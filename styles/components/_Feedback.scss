@@ -121,5 +121,43 @@
       margin-right: 20px;
       padding-bottom: 40px;
     }
+
+    .swiper-pagination-bullet-active {
+      background-color: $color-2;
+    }
   }
+
+  .swiper-button-next {
+    color: #333;
+    // transform: translate(0, 150px);
+    background-image: url("/feed/Arrow\ up.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transform: scale(150%);
+    // transform: translate(-20%, 150px);
+    top: 93%;
+    right: 20%;
+  }
+  ::after {
+    display: none;
+  }
+  .swiper-button-prev {
+    color: #333;
+    // transform: translate(0, 150px);
+    background-image: url("/feed/Arrow\ down.svg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    transform: scale(150%);
+    top: 93%;
+    left: 20%;
+  }
+
+  // .swiper-button-next {
+  //   background-color: #333;
+  //   height: 20px;
+  //   width: 100px;
+  // }
+  padding-bottom: 300px;
 }
