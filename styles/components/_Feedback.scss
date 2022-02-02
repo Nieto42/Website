@@ -64,11 +64,24 @@
         margin-right: 20px;
         padding-bottom: 20px;
       }
-
-      .imge {
-        border: solid 3px;
-        border-radius: 50%;
-        // object-fit: cover;
+      .img {
+        .fond {
+          background-color: $color-2;
+          height: 200px;
+          width: 200px;
+          position: absolute;
+          transform: scale(54%);
+          right: 17%;
+          bottom: 49%;
+          border-radius: 50%;
+          z-index: -4;
+          opacity: 0.4;
+        }
+        .imge {
+          // border: solid 3px #333;
+          border-radius: 50%;
+          object-fit: cover;
+        }
       }
 
       .container-text {

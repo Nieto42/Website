@@ -49,6 +49,7 @@ export default function Feedback() {
                 <div className="container">
                   <hr className="trait1" />
                   <div className="img">
+                    <span className="fond"></span>
                     <Image
                       src={item.img}
                       alt={item.alt}
