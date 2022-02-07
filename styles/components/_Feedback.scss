@@ -13,7 +13,7 @@
       position: absolute;
       transform: rotate(-20deg);
       -ms-transform: rotate(-20deg); /* IE 9 */
-      top: -5%;
+      top: 2%;
       left: -4%;
     }
     h4 {
@@ -42,7 +42,8 @@
   }
 
   .feed {
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     .container {
       position: relative;
