@@ -1,15 +1,19 @@
 .home {
-  background-image: url("/home/Primo frances img.svg"),
+  background-image: url("/home/Primo\ frances\ img.svg"),
     url("/home/Polygon 3.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: 30rem, 550px;
-  background-position: center, top;
+  background-size: cover, cover;
+  background-position: center, center;
 
+  background-size: 30rem, 100%;
   background-position-y: -3.3em, center;
   background-position-x: 20px, center;
-  height: 660px;
 
   margin-top: 50px;
+  padding-top: 20px;
+
+  // width: 100%;
+  // height: 100%;
 
   cite {
     visibility: hidden;
@@ -53,14 +57,14 @@
     font-weight: 500;
     font-size: 2.4rem;
     // line-height: 3rem;
-    margin-left: 20px;
+    padding-left: 20px;
     margin-top: 5px;
-    margin-right: 10px;
+    padding-right: 10px;
   }
 
   .caption {
     display: flex;
-    margin-left: 20px;
+    padding-left: 10px;
     margin-top: 5px;
     hr {
       border: none;
@@ -70,14 +74,14 @@
       text-align: center;
       height: 5px;
       margin-top: 7px;
-      margin-right: 20px;
     }
     .caption1 {
       font-size: 1rem;
       font-family: $font-2;
       color: #4f4f4f;
       width: fit-content;
-      padding-right: 15px;
+      padding-right: 10px;
+      padding-left: 10px;
     }
   }
 
@@ -90,31 +94,53 @@
   button {
     margin-top: 40px;
     margin-left: 20px;
+    padding: 15px;
     text-transform: none;
     border-radius: 16px;
+    line-height: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .home {
+    background-size: 150%, 160%;
+    background-position-y: 125%, center;
+    background-position-x: -36px, center;
+    height: 700px;
   }
 }
 
 @media screen and (min-width: 375px) {
   .home {
     background-size: 37rem, 550px;
-    background-position-y: 110%, center;
+    background-position-y: 107%, center;
     background-position-x: -36px, center;
+    height: 650px;
   }
 }
+
+@media screen and (min-width: 390px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 103%, center;
+    background-position-x: -36px, center;
+    height: 650px;
+  }
+}
+
 @media screen and (min-width: 412px) {
   .home {
     background-size: 37rem, 550px;
-    background-position-y: 105%, center;
+    background-position-y: 100%, center;
     background-position-x: -36px, center;
   }
 }
 
 @media screen and (min-width: 425px) {
   .home {
-    background-size: 40rem, 550px;
-    background-position-y: 99%, center;
-    background-position-x: 30%, center;
+    background-size: 37rem, 550px;
+    background-position-y: 97%, center;
+    background-position-x: 25%, center;
 
     .caption {
       margin-top: 20px;
@@ -123,6 +149,37 @@
       margin-top: 70px;
       width: 150px;
     }
+  }
+}
+
+@media screen and (min-width: 630px) {
+  .home {
+    background-size: 110%, 550px;
+    background-position-y: 97%, center;
+    background-position-x: -20%, center;
+
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    .caption {
+      margin-top: 20px;
+      width: 370px;
+    }
+    button {
+      margin-top: 70px;
+      width: 150px;
+      left: 10%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home {
+    background-image: url("/home/primo img desktop.svg"),
+      url("/home/Polygon 3.svg");
+    background-size: 45%, 50%;
+    background-position-y: bottom, bottom;
+    background-position-x: 84%, right;
   }
 }
 
