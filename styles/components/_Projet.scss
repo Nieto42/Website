@@ -74,3 +74,34 @@
     }
   }
 }
+
+@media screen and (min-width: 600px) {
+  .projet {
+    .cta-top {
+      .button-cta {
+        left: 40%;
+      }
+    }
+  }
+  .projet .intro .mot {
+    left: -6px;
+    top: -20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projet {
+    .cta-top {
+      .button-cta {
+        transform: scale(120%);
+        left: 44%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .projet .container-projet li .img-container {
+    transform: scale(90%);
+  }
+}

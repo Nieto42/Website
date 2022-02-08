@@ -174,3 +174,19 @@
   //   width: 100px;
   // }
 }
+
+@media screen and (min-width: 768px) {
+  .feedback .intro .mot {
+    left: -2%;
+  }
+  .feedback .feed .container .img .fond {
+    left: 37%;
+    top: -5px;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .feedback .intro .mot {
+    left: -0%;
+  }
+}

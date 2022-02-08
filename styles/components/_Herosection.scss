@@ -152,6 +152,29 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  .home {
+    background-size: 110%, 550px;
+    background-position-y: 100%, center;
+    background-position-x: 27px, center;
+
+    .mot {
+      padding-left: 10px;
+      padding-top: 20px;
+    }
+    h1 {
+      padding-top: 20px;
+    }
+    .caption {
+      padding-top: 20px;
+      width: 390px;
+    }
+  }
+  button {
+    left: 6%;
+  }
+}
+
 @media screen and (min-width: 630px) {
   .home {
     background-size: 110%, 550px;
@@ -180,6 +203,33 @@
     background-size: 45%, 50%;
     background-position-y: bottom, bottom;
     background-position-x: 84%, right;
+
+    .scroolContainer {
+      visibility: visible;
+      left: 350px;
+    }
+
+    h1 {
+      width: 480px;
+      font-family: $font-1;
+      font-weight: 600;
+      font-size: 4rem;
+      margin-left: 10px;
+    }
+
+    button {
+      margin-top: 30px;
+      left: 10px;
+    }
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .home {
+    .scroolContainer {
+      left: 400px;
+    }
   }
 }
 
@@ -190,11 +240,12 @@
 
     background-size: 540px, 530px;
     background-position-y: bottom, bottom;
-    background-position-x: 84%, right;
+    background-position-x: 86%, right;
 
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 90px;
+    margin-left: 20px;
     height: 800px;
+    padding-right: 40px;
 
     .mot {
       top: 14%;
@@ -208,16 +259,24 @@
     button {
       margin-top: 30px;
     }
+
+    .scroolContainer {
+      left: 50%;
+      top: -50%;
+    }
+
     cite {
       visibility: visible;
       position: absolute;
       left: 83%;
-      top: 45%;
+      top: 40%;
       word-wrap: break-word;
       // width: 100px;
       margin-right: 10px;
       font-family: $font-1;
-      font-size: 1rem;
+      color: #4f4f4f;
+      font-size: 0.9rem;
+      quotes: "« " " »";
     }
   }
 }

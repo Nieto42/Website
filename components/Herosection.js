@@ -20,7 +20,9 @@ export default function Homesection() {
         <p>Hello!</p>
       </div>
       <cite>
-        Un service complet et de proximité pour les entrepreuneurs de SLM
+        {
+          " ''Un service complet et de proximité pour les entrepreuneurs de SLM'' "
+        }
       </cite>
 
       <h1>Webmarketing de proximité pour les TPE et PME</h1>

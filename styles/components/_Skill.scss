@@ -208,10 +208,29 @@
   }
 }
 
+@media screen and (min-width: 600px) {
+  .skill-exp .skill .item-skill .item-container ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .skill-exp .skill .mot {
+    left: -5px;
+  }
+}
 @media screen and (min-width: 630px) {
   .skill-exp .skill .item-skill .item-container ul {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skill-exp .skill .item-skill .item-container ul {
+    li {
+      margin: 20px;
+    }
   }
 }
