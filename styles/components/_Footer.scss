@@ -137,3 +137,61 @@
     background-size: 30%;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    width: 100%;
+
+    .container-footer {
+      .container-intro {
+        width: 50%;
+        .contact-info {
+          li {
+            padding-top: 20px;
+            hr {
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+
+      .container-byen {
+        padding-top: 40px;
+        background-size: 90%;
+        width: 50%;
+        height: 450px;
+      }
+    }
+  }
+  .footer .container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .container-end {
+    padding-top: 30px;
+  }
+}
+
+.footer .container-end .container-h6 {
+  padding-bottom: 30px;
+}
+
+.footer
+  .container-footer
+  .container-intro
+  .contact-info
+  li
+  .container-element-info
+  .contact-primo {
+  padding-left: 30px;
+}
+.footer .container-footer .container-intro .contact-info li .train-info {
+  width: 80%;
+}
+.footer .container-footer .container-intro .intro .mot {
+  top: -25px;
+}

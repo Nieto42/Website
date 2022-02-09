@@ -234,3 +234,61 @@
     }
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .skill-exp {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 20px;
+
+    .skill {
+      .mot {
+        top: 10px;
+      }
+
+      .caption {
+        padding-top: 20px;
+        width: 600px;
+      }
+
+      .item-skill {
+        padding-top: 60px;
+
+        h4 {
+          font-weight: 400;
+          font-size: 1.8rem;
+        }
+      }
+    }
+
+    .exp-container {
+      padding-top: 70px;
+      width: 600px;
+
+      h3 {
+        font-weight: 400;
+        font-size: 1.5rem;
+      }
+      .exp {
+        ul {
+          li {
+            padding-top: 30px;
+            .info {
+              .name {
+                h4 {
+                  padding-top: 10px;
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .skill-exp .exp-container .container-img .img-button .background {
+    transform: scale(150%);
+  }
+}

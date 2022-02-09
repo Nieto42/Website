@@ -138,6 +138,7 @@
 
     .swiper-pagination-bullet-active {
       background-color: $color-2;
+      transform: scale(160%);
     }
   }
 
@@ -188,5 +189,58 @@
 @media screen and (min-width: 912px) {
   .feedback .intro .mot {
     left: -0%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feedback {
+    .intro {
+      display: flex;
+
+      .caption {
+        padding-top: 50px;
+        padding-left: 40px;
+      }
+
+      h4 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .feedback {
+    .feed {
+      .slide {
+        height: 400px;
+        padding-top: 20px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+
+        position: relative;
+
+        .container-teste {
+          padding-left: 350px;
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+
+  .feedback .feed .container .img {
+    left: 50px;
+    position: absolute;
+    width: 230px;
+  }
+  .feedback .feed .container .img .imge {
+    border-radius: 15%;
+  }
+
+  .feedback .feed .container .img .fond {
+    height: 425px;
+    width: 334px;
+    border-radius: 167px;
+    left: 70%;
   }
 }

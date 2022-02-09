@@ -105,3 +105,43 @@
     transform: scale(90%);
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .projet {
+    .cta-top {
+      .button-cta {
+        transform: scale(120%);
+        left: 78%;
+      }
+    }
+
+    .container-projet {
+      ul {
+        display: flex;
+        justify-content: space-around;
+        height: 700px;
+        padding-top: 100px;
+
+        li {
+          width: 300px;
+        }
+        li:nth-child(1) {
+          transform: translateY(150px);
+        }
+        li:nth-child(3) {
+          transform: translateY(-150px);
+        }
+      }
+      position: relative;
+      .button-project {
+        position: absolute;
+        left: 80%;
+        top: 70%;
+        width: fit-content;
+        a span {
+          transform: scale(150%);
+        }
+      }
+    }
+  }
+}

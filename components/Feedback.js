@@ -22,7 +22,7 @@ export default function Feedback() {
       <div className="intro">
         <p className="mot">Témoignage</p>
         <h4>
-          Feedback |<br /> Client{" "}
+          Feedback <br /> Client{" "}
         </h4>
         <div className="caption">
           <hr />
@@ -47,30 +47,32 @@ export default function Feedback() {
             return (
               <SwiperSlide key={project} className="slide">
                 <div className="container">
-                  <hr className="trait1" />
                   <div className="img">
-                    <span className="fond"></span>
                     <Image
                       src={item.img}
                       alt={item.alt}
-                      // layout="responsive"
+                      layout="responsive"
                       width={100}
                       height={100}
                       quality={100}
                       className="imge"
                     ></Image>
+                    <span className="fond"></span>
                   </div>
-                  <div className="container-text">
-                    <p className="text">{item.feed}</p>
-                  </div>
-                  <div className="container-name">
-                    <p className="name">{item.name}</p>
-                    <div className="container-poste">
-                      <hr className="poste-trait" />
-                      <p className="poste">{item.poste}</p>
+                  <div className="container-teste">
+                    <hr className="trait1" />
+                    <div className="container-text">
+                      <p className="text">{item.feed}</p>
                     </div>
+                    <div className="container-name">
+                      <p className="name">{item.name}</p>
+                      <div className="container-poste">
+                        <hr className="poste-trait" />
+                        <p className="poste">{item.poste}</p>
+                      </div>
+                    </div>
+                    <hr className="end-trait" />
                   </div>
-                  <hr className="end-trait" />
                 </div>
               </SwiperSlide>
             );
