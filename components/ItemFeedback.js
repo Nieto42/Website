@@ -3,7 +3,7 @@ export const ItemFeedback = [
     name: "Regiane Pompeu De Sales",
     feed: "Nous avons mis en place une stratégie pour développer mes ventes sur saint laurent du maroni. Il a pus réalisé notre site web et mettre en avant notre system de panier. Un très bon professionel en marketing sur SLM  ",
     poste: "PDG, RPS Agriculture",
-    img: "/feed/foto rps.jpeg",
+    img: "/feed/photo regiane pompeu - rps agriculture website.png",
     alt: "foto du client a saint laurent du maroni",
   },
   {

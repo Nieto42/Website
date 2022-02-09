@@ -232,15 +232,34 @@
     left: 50px;
     position: absolute;
     width: 230px;
+    top: 20px;
   }
   .feedback .feed .container .img .imge {
-    border-radius: 15%;
+    border-radius: 10%;
   }
 
   .feedback .feed .container .img .fond {
-    height: 425px;
-    width: 334px;
-    border-radius: 167px;
-    left: 70%;
+    height: 370px;
+    width: 370px;
+    border-radius: 10%;
+    left: -10%;
+    top: -10%;
+  }
+  .feedback .feed .container .container-name {
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .feedback .feed .container .container-text .text {
+    font-size: 1rem;
+    line-height: 150%;
+    font-family: $font-1;
+  }
+
+  .feedback .swiper-button-prev {
+    transform: scale(200%);
+  }
+  .feedback .swiper-button-next {
+    transform: scale(200%);
   }
 }
