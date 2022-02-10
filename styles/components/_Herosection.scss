@@ -294,10 +294,15 @@
       top: 14%;
       left: 2%;
     }
+
+    h1 {
+      font-family: $font-1;
+      font-weight: 400;
+    }
     cite {
       position: absolute;
       left: 80%;
-      top: 20%;
+      top: 30%;
       font-family: $font-1;
       font-size: 1rem;
       word-wrap: break-word;
@@ -307,6 +312,8 @@
     }
     .scroolContainer {
       visibility: visible;
+      top: -65%;
+      left: 630px;
     }
   }
 }

@@ -292,3 +292,19 @@
     transform: scale(150%);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .skill-exp .skill .item-skill .item-container ul {
+    width: 80%;
+  }
+  .skill-exp .skill .item-skill .item-container ul li {
+    margin-right: 30px;
+  }
+
+  .skill-exp .exp-container {
+    width: 700px;
+  }
+  .skill-exp {
+    padding-left: 60px;
+  }
+}

@@ -111,8 +111,9 @@
   .services-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-top: 0;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
 
@@ -151,5 +152,21 @@
     position: initial;
     padding-top: 60px;
     transform: scale(120%);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .services-container .title .mot {
+    left: -15px;
+  }
+
+  .services-container .services {
+    width: 600px;
+  }
+
+  .services-container .title .cta {
+    transform: scale(150%);
+    padding-left: 20px;
+    padding-top: 80px;
   }
 }

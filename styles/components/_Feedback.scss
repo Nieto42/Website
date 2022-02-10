@@ -263,3 +263,13 @@
     transform: scale(200%);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .feedback {
+    padding-left: 60px;
+  }
+
+  .feedback .intro .caption .caption1 {
+    width: 90%;
+  }
+}

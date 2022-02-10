@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ItemFeedback } from "./ItemFeedback";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, A11y } from "swiper";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper";
 
 // const params = {
 //   pagination: {
@@ -40,8 +40,12 @@ export default function Feedback() {
           centeredSlides={true}
           spaceBetween={150}
           pagination={{ clickable: true }}
-          modules={[Pagination, Navigation, A11y]}
+          modules={[Pagination, Navigation, A11y, Autoplay]}
           navigation
+          autoplay={{
+            delay: 7500,
+            disableOnInteraction: false,
+          }}
         >
           {ItemFeedback.map((item, project) => {
             return (
