@@ -50,7 +50,7 @@ export default function Homesection() {
             ></Image>
           }
         >
-          Discuton<br></br>Ensemble
+          Discutons<br></br>Ensemble
         </ColorButton>
       </a>
 
