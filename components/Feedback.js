@@ -72,10 +72,10 @@ export default function Feedback() {
                       src={item.img}
                       alt={item.alt}
                       layout="responsive"
-                      width={100}
                       loading="lazy"
                       height={100}
-                      quality={100}
+                      width={100}
+                      quality={90}
                       className="imge"
                     ></Image>
                     <span className="fond"></span>
