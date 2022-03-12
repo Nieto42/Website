@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ItemService } from "./ItemService";
+import { ItemService } from "../components/item/ItemService";
 
 export default function Services() {
   return (

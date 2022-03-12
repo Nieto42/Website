@@ -15,10 +15,27 @@ export const ItemService = [
     image: "/button rond.svg",
     alt: "Petit bouton pour voir le service proposé",
   },
+
   {
     title: "Conseil en digital",
     number: "03",
     url: "https://wa.me/594694224717?text=J'ai%20une%20question%20concernant%20les%20conseil%20et%20gestion%20en%20digitalisation",
+    cName: "service-links",
+    image: "/button rond.svg",
+    alt: "Petit bouton pour voir le service proposé",
+  },
+  {
+    title: "Création de App",
+    number: "04",
+    url: "https://wa.me/594694224717?text=J'ai%20une%20question%20concernant%20la%20creation%20d%20app%20",
+    cName: "service-links",
+    image: "/button rond.svg",
+    alt: "Petit bouton pour voir le service proposé",
+  },
+  {
+    title: "Système informatique",
+    number: "05",
+    url: "https://wa.me/594694224717?text=J'ai%20une%20question%20concernant%20la%20création%20de%20systeme%20informatique%20",
     cName: "service-links",
     image: "/button rond.svg",
     alt: "Petit bouton pour voir le service proposé",

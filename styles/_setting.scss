@@ -11,3 +11,12 @@ $font-2: "Roboto", sans-serif;
 $color-1: #edcc5d; // Primary  Orange
 $color-2: #8873f0; // Scondary purple
 $color-3: #b9f2fe;
+
+@mixin container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  max-width: 1202px;
+  width: 100%;
+}

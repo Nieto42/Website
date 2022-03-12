@@ -100,6 +100,14 @@
     line-height: 1.3rem;
   }
 }
+@media screen and (max-width: 360px) {
+  .home {
+    background-size: 0%, 160%;
+    background-position-y: none, center;
+    background-position-x: none, center;
+    height: 700px;
+  }
+}
 
 @media screen and (min-width: 360px) {
   .home {
@@ -151,6 +159,34 @@
     }
   }
 }
+@media screen and (min-width: 483px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 100%, center;
+    background-position-x: 0%, center;
+  }
+}
+@media screen and (min-width: 508px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 100%, center;
+    background-position-x: 10px, center;
+  }
+}
+@media screen and (min-width: 555px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 100%, center;
+    background-position-x: 35px, center;
+  }
+}
+@media screen and (min-width: 560px) {
+  .home {
+    background-size: 37rem, 550px;
+    background-position-y: 100%, center;
+    background-position-x: 40px, center;
+  }
+}
 
 @media screen and (min-width: 600px) {
   .home {
@@ -193,6 +229,13 @@
       width: 150px;
       left: 10%;
     }
+  }
+}
+@media screen and (min-width: 740px) {
+  .home {
+    background-size: 110%, 550px;
+    background-position-y: 97%, center;
+    background-position-x: -10%, center;
   }
 }
 
@@ -278,6 +321,41 @@
       font-size: 0.9rem;
       quotes: "« " " »";
     }
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .home {
+    background-size: 540px, 530px;
+    background-position-y: bottom, bottom;
+    background-position-x: 90%, right;
+  }
+}
+
+@media screen and (min-width: 1325px) {
+  .home {
+    background-position-x: 93%, right;
+    cite {
+      left: 60%;
+      top: 45%;
+      width: 200px;
+    }
+  }
+}
+
+@media screen and (min-width: 1414px) {
+  .home {
+    background-position-x: 93%, right;
+    cite {
+      left: 63%;
+      top: 45%;
+      width: 200px;
+    }
+  }
+}
+@media screen and (min-width: 1417px) {
+  .home {
+    background-position-x: 93%, right;
   }
 }
 

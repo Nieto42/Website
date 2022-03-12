@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ItemContact } from "./ItemContact";
+import { ItemContact } from "./../components/item/ItemContact";
 
 export default function Footer() {
   return (

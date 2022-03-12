@@ -1,20 +1,8 @@
 import Image from "next/image";
-import { ItemFeedback } from "./ItemFeedback";
+import { ItemFeedback } from "../components/item/ItemFeedback";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, A11y, Autoplay } from "swiper";
-
-// const params = {
-//   pagination: {
-//     el: ".swiper-pagination",
-//     type: "bullets",
-//     clickable: true,
-//   },
-//   navigation: {
-//     nextEl: ".swiper-button-next",
-//     prevEl: ".swiper-button-prev",
-//   },
-// };
 
 export default function Feedback() {
   return (
@@ -33,7 +21,30 @@ export default function Feedback() {
           </p>
         </div>
       </div>
+
       <div className="feed">
+        <div className="arrow-nav-swiper">
+          <button className="swiper-button-prev">
+            <Image
+              src="/feed/Arrow down.svg"
+              alt="icon fleche pour voir les commentaires a gauche"
+              loading="lazy"
+              layout="fixed"
+              width={52}
+              height={48}
+            />
+          </button>
+          <button className="swiper-button-next">
+            <Image
+              src="/feed/Arrow up.svg"
+              alt="icon fleche pour voir les commentaires a gauche"
+              loading="lazy"
+              layout="fixed"
+              width={52}
+              height={48}
+            />
+          </button>
+        </div>
         <Swiper
           // {...params}
           //       slidesPerView={1}
@@ -41,11 +52,16 @@ export default function Feedback() {
           spaceBetween={150}
           pagination={{ clickable: true }}
           modules={[Pagination, Navigation, A11y, Autoplay]}
-          navigation
+          navigation={{
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }}
+          loop={true}
           autoplay={{
             delay: 7500,
             disableOnInteraction: false,
           }}
+          className="swiper-class"
         >
           {ItemFeedback.map((item, project) => {
             return (
@@ -57,6 +73,7 @@ export default function Feedback() {
                       alt={item.alt}
                       layout="responsive"
                       width={100}
+                      loading="lazy"
                       height={100}
                       quality={100}
                       className="imge"

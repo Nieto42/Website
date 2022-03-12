@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="logo">
         <div className="img">
           <Image
-            src="/icon primo frances.svg"
+            src="/favicon.svg"
             alt="Logo primo frances "
             width="42"
             height="42"

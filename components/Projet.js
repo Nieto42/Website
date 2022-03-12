@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ItemPro } from "./ItemPro";
+import { ItemPro } from "./../components/item/ItemPro";
 
 export default function Projet() {
   return (
@@ -53,7 +53,7 @@ export default function Projet() {
                 </div>
                 <div className="img-container">
                   <a
-                    href="$"
+                    href={item.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link"
@@ -62,8 +62,8 @@ export default function Projet() {
                       src={item.imagePro}
                       alt={item.altPro}
                       layout="responsive"
-                      width={700}
-                      height={475}
+                      width={612.5}
+                      height={457.5}
                       quality={100}
                     ></Image>
                   </a>

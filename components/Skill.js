@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { ItemSkill } from "./ItemSkill";
-import { ItemExp } from "./ItemExp";
+import { ItemSkill } from "./../components/item/ItemSkill";
+import { ItemExp } from "../components/item/ItemExp";
 
 export default function Skill() {
   return (
