@@ -1,14 +1,14 @@
 export const ItemFeedback = [
   {
     name: "Regiane Pompeu De Sales",
-    feed: "Nous avons mis en place une stratégie pour développer mes ventes sur saint laurent du maroni. Il a pus réalisé notre site web et mettre en avant notre system de livraison de panier. Un très bon professionel en marketing sur SLM  ",
+    feed: "Nous avons mis en place une stratégie pour développer mes ventes sur saint laurent du maroni. Ensemble nous avons réalisé notre site web et mis en avant notre système de livraison de panier. Un très bon spécialiste en marketing digital sur Saint-Laurent du Maroni. ",
     poste: "PDG, RPS Agriculture",
     img: "/feed/photo de régiane rps sur saint laurent du maroni.png",
     alt: "foto du client content des service digitaux a saint laurent du maroni",
   },
   {
     name: "Freitas Soares",
-    feed: "Professionel complet, dans le conseil, gestion et propostion de nouveaux axe de developpement. A l'écoute lors du développement du site web. ",
+    feed: "Un professionnel complet en marketing digital. Quelqu'un qui est à l'écoute, patient et dynamique. De bon conseil en marketing et en gestion avec de nouveau axe d'amélioration.  Il a développé notre site web et s'occupe de la maintenance. ",
     poste: "PDG, FREITAS OUEST CONSTRUCTION",
     img: "/feed/photo soares ouest construction sur saint laurent du maroni.png",
     alt: "foto du client content des service digitaux a saint laurent du maroni",
