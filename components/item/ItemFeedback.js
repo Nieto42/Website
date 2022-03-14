@@ -8,7 +8,7 @@ export const ItemFeedback = [
   },
   {
     name: "Freitas Soares",
-    feed: "Un professionnel complet en marketing digital. Quelqu'un qui est à l'écoute, patient et dynamique. De bon conseil en marketing et en gestion avec de nouveau axe d'amélioration.  Il a développé notre site web et s'occupe de la maintenance. ",
+    feed: "Un professionnel complet en marketing digital. Quelqu'un qui est à l'écoute, patient et dynamique. De bon conseil en marketing et en gestion avec de nouveaux axes d'amélioration.  Il a développé notre site web et s'occupe de la maintenance. ",
     poste: "PDG, FREITAS OUEST CONSTRUCTION",
     img: "/feed/photo soares ouest construction sur saint laurent du maroni.png",
     alt: "foto du client content des service digitaux a saint laurent du maroni",

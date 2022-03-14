@@ -13,8 +13,8 @@ export default function Skill() {
         <div className="caption">
           <hr />
           <p className="caption1">
-            Spécialiste en marketing digital. Passionnez de résoudre les
-            problèmes en proposant des solutions web adapté et un service de
+            Spécialiste en marketing digital. Enthousiaste à résoudre les
+            problèmes en proposant des solutions web adaptées et un service de
             proximité sur Saint Laurent Du Maroni
           </p>
         </div>

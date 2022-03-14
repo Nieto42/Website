@@ -15,9 +15,9 @@ export default function Feedback() {
         <div className="caption">
           <hr />
           <p className="caption1">
-            Nous aidons les entreprise de saint laurent du maroni a se
-            digitaliser et résoudre leur probleme a travers des solution
-            digitale et du consulting en marketing
+            Nous aidons les entreprises de Saint Laurent du Maroni à se
+            digitaliser, surmonter leur probleme à travers des solutions
+            digitales et du consulting en web marketing.
           </p>
         </div>
       </div>

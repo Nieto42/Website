@@ -11,7 +11,7 @@ export default function Services() {
           <hr />
           <p className="caption1">
             J’aide les entreprises de SLM qui souhaite générer plus de profils
-            grâce aux digitales en élaborant des sites web, du contenus
+            grâce aux digitales en élaborant des sites web, du contenu
             photos/videos et en générant du traffic web à partir des publicités
             en ligne.
           </p>
