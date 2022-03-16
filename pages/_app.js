@@ -13,9 +13,9 @@ const App = ({ Component, pageProps }) => {
       gtag.pageview(url);
     };
 
-    router.events.on("routeChangeComplete", pageview, handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
-      router.events.off("routeChangeComplete", pageview, handleRouteChange);
+      router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
 
@@ -41,7 +41,7 @@ const App = ({ Component, pageProps }) => {
         }}
       />
       {/* Google Tag Manager - Global base code */}
-      <Script
+      {/* <Script
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
@@ -52,7 +52,7 @@ const App = ({ Component, pageProps }) => {
             })(window,document,'script','dataLayer', '${GTM_ID}');
           `,
         }}
-      />
+      /> */}
       <Component {...pageProps} />
     </>
   );
