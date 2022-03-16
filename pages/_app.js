@@ -13,9 +13,9 @@ const App = ({ Component, pageProps }) => {
       gtag.pageview(url);
     };
 
-    router.events.on("routeChangeComplete", handleRouteChange, pageview);
+    router.events.on("routeChangeComplete", pageview, handleRouteChange);
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange, pageview);
+      router.events.off("routeChangeComplete", pageview, handleRouteChange);
     };
   }, [router.events]);
 
