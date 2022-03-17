@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://primofrances/sitemap.xml
+Sitemap: https://www.primofrances/sitemap
+Sitemap: http://primofrances/sitemap
+Sitemap: https://www.primofrances/sitemap
