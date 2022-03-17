@@ -6,4 +6,7 @@ Allow: /
 Host: https://primofrances.fr
 
 # Sitemaps
+Sitemap: https://www.primofrances.fr/sitemap.xml
+Sitemap: http://www.primofrances.fr/sitemap.xml
 Sitemap: https://primofrances.fr/sitemap.xml
+Sitemap: http://primofrances.fr/sitemap.xml
