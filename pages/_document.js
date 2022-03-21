@@ -1,11 +1,13 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
+
 import { GTM_ID } from "../lib/gtm";
 
 export default function Document() {
   return (
     <Html lang="fr">
       <Head>
-        Google Tag Manager - Global base code
+        {/* Google Tag Manager - Global base code */}
         <Script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -18,7 +20,7 @@ export default function Document() {
           `,
           }}
         />
-        Hotjar Tracking Code for primofrances
+        {/* Hotjar Tracking Code for primofrances */}
         <Script
           strategy="beforeInteractive"
           hotjar={{
