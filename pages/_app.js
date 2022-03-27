@@ -5,8 +5,14 @@ import { useRouter } from "next/router";
 import * as gtag from "../lib/gtag";
 import { GTM_ID, pageview } from "../lib/gtm";
 
+import { hotjar } from "react-hotjar";
+
 const App = ({ Component, pageProps }) => {
   const router = useRouter();
+
+  useEffect(() => {
+    hotjar.initialize(2445089, 6);
+  }, []);
 
   useEffect(() => {
     const handleRouteChange = (url) => {
